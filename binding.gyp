@@ -31,7 +31,7 @@
       'conditions': [
         ['OS=="linux"', {'libraries': ['-lgridstore']}],
         ['OS=="mac"', {'libraries': ['-lgridstore']}],
-        ['OS=="win"', {'libraries': ['<(C_CLIENT_PATH)/gridstore_c.lib']}],
+        ['OS=="win"', {'libraries': ['<(C_CLIENT_PATH)/gridstore_c.lib']}],  
        ],
       "defines": ["NAPI_DISABLE_CPP_EXCEPTIONS=1"]
     },
